@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Montserrat', sans-serif !important;
+  }
+  body {
+    @apply bg-[#fdf8f6] text-[#4b3621] antialiased;
+    font-family: 'Montserrat', sans-serif !important;
+  }
+}
+
+.font-sans {
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+.font-serif {
+  font-family: 'Playfair Display', serif !important;
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  display: inline-flex;
+  animation: marquee 20s linear infinite;
+}
