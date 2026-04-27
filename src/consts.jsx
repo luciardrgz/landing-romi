@@ -1,8 +1,9 @@
 import { Sparkles, Heart, Scissors } from 'lucide-react';
 
 export const WHATSAPP_NUMBER = "542236908042";
-
 export const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=Hola%20Romi!%20Vi%20tu%20web%20y%20quiero%20consultarte%20por%20un%20turno...`;
+export const CALENDLY_URL = "https://calendly.com/zielusweb/30min";
+export const INSTAGRAM_URL = "https://instagram.com";
 
 export const SERVICIOS = [
   { 
