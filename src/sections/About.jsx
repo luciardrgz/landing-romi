@@ -1,4 +1,4 @@
-import fotoRomi from '../assets/romi.png';
+import fotoRomi from '/romi.png';
 import { Sparkles, Heart, Scissors, MapPin } from 'lucide-react';
 
 export const About = () => (
